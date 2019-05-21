@@ -2,7 +2,7 @@
 
 ***
 ## 如何使用?
-step1:下载：https://github.com/qwerfdsazxcv/wechat-spring-boot-starter.gits
+step1:下载：https://github.com/qwerfdsazxcv/wechat-spring-boot-starter.gits   
 step2: maven 编译打包后，mvn install 命令上传到仓库
 
 
