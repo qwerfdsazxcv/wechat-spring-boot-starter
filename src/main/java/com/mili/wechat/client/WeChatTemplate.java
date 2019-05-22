@@ -75,7 +75,7 @@ public class WeChatTemplate {
   }
 
 
-  public byte[] _getWxacodeUnlimited(WeChatCodeDto weiXinCodeDto) {
+  public byte[] getWxacodeUnlimited(WeChatCodeDto weiXinCodeDto) {
     byte[] QRCode = null;
     Object obj = redisTemplate.opsForValue().get(weiXinCodeDto.getMiniCodeKey());
     if (null != obj) {
